@@ -1,0 +1,1 @@
+print('aa. k fv r'.title())
