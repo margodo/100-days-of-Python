@@ -1,4 +1,3 @@
-from re import search
 from tkinter import *
 from tkinter import messagebox
 from random import randint,shuffle,choice
@@ -101,21 +100,5 @@ add_button.grid(row = 4, column = 1, columnspan = 2, sticky = "EW" )
 
 search_button = Button(text="Search", command=search_website)
 search_button.grid(column = 2, row = 1, sticky = "EW")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 window.mainloop()
